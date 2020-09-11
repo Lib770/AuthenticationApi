@@ -2,9 +2,7 @@
 
 namespace AuthenticationApi.Controllers
 {
-    [ApiController]
-    [Route("[controller]")]
-    public class HealthCheckController : ControllerBase
+    public class HealthCheckController : ApiControllerBase
     {
         [HttpGet]
         public IActionResult Ping()
